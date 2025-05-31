@@ -31,7 +31,7 @@ app.get("/maps", function(req, res){
 	res.sendFile(path.join(__dirname + '/MapAndLoc.html'));
 });
 
-app.listen(3000, function(){
-    console.log("Ehtihaad Bartein ~(^_^)~");
-
+app.listen(5000, function(){
+    console.log("Ehtihaad Bartein ~(^_^)~ on port 5000");
 });
+
