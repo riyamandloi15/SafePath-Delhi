@@ -5,6 +5,11 @@ var passport=require("passport");
 var methodOverride= require("method-override");
 var path = require('path');
 
+app.get("/test", (req, res) => {
+  res.send("Server is working!");
+});
+
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
